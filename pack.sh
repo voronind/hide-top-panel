@@ -1,1 +1,1 @@
-zip -j hide-top-panel.zip hide-top-panel@dimka665.gmail.com/*
+zip -j extension.zip hide-top-panel@dimka665.gmail.com/*
