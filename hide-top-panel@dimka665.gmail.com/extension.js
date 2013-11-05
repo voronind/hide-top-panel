@@ -15,14 +15,14 @@ let ANIMATION_SPEED = 0.4;
 
 function hide_panel() {
     Tweener.addTween(panel_actor, {
-        y: -panel_height,
+        translation_y: -panel_height,
         time: ANIMATION_SPEED
     });
 }
 
 function show_panel() {
     Tweener.addTween(panel_actor, {
-        y: 0,
+        translation_y: 0,
         time: ANIMATION_SPEED
     });
 }

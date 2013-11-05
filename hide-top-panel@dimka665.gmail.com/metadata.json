@@ -1,8 +1,8 @@
 {
     "name": "Hide top panel",
-    "description": "Hides top panel, except in overview. Works on 3.8",
-    "shell-version": ["3.8"],
+    "description": "Hides top panel except in overview. Useful for Chrome and Firefox browser tabs.\nWorks on GNOME Shell 3.8, 3.10",
+    "shell-version": ["3.8", "3.10"],
     "uuid": "hide-top-panel@dimka665.gmail.com",
     "url": "https://github.com/dimka665/hide-top-panel",
-    "version": 2
+    "version": 3
 }
