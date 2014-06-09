@@ -6,7 +6,7 @@ const panel = Main.panel.actor;
 const panel_box = panel.get_parent();
 
 /* Panel's top does not have to be 0, if the primary screen is some pixels "below" another one. */
-let panel_top = panel.get_transformed_position()[1];
+let panel_y = panel.get_y();
 let panel_height = panel.get_height();
 
 let show_event = false;
@@ -36,7 +36,7 @@ function enable() {
     show_event = Main.overview.connect('showing', show_panel);
     hide_event = Main.overview.connect('hiding', hide_panel);
 
-    panel_box.set_position(0, panel_top - panel_height);
+    panel_box.set_position(0, panel_y - panel_height);
     hide_panel();
 }
 
@@ -44,6 +44,6 @@ function disable() {
     if(show_event) Main.overview.disconnect(show_event);
     if(hide_event) Main.overview.disconnect(hide_event);
 
-    panel_box.set_position(0, panel_top);
+    panel_box.set_position(0, panel_y);
     panel.translation_y = 0;
 }
