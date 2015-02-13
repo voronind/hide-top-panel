@@ -5,7 +5,7 @@ Hide top panel
 | GNOME Shell Extension.
 |
 | Hides top bar except in overview. Useful for Chrome and Firefox browser tabs.
-| Works on GNOME Shell 3.8, 3.10
+| Works on GNOME Shell 3.8, 3.10, 3.12
 |
 | If you want autohide feature support use `"Hide top bar" extension <https://extensions.gnome.org/extension/545/hide-top-bar/>`_
 |
