@@ -1,7 +1,7 @@
 {
     "name": "Hide top panel",
     "description": "Hides top panel except in overview. Useful for Chrome and Firefox browser tabs.\nWorks on GNOME Shell 3.8, 3.10\n\nIf you want autohide feature support use this extension: https://extensions.gnome.org/extension/545/hide-top-bar",
-    "shell-version": ["3.8", "3.10", "3.12"],
+    "shell-version": ["3.8", "3.10", "3.12", "3.14"],
     "uuid": "hide-top-panel@dimka665.gmail.com",
     "url": "https://github.com/dimka665/hide-top-panel",
     "version": 6
